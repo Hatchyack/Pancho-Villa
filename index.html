@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pancho Villa Restaurant</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header container">
+    <div class="logo">
+      <img src="images/logo.png" alt="Pancho Villa Logo" width="160">
+    </div>
+    <button class="nav-toggle" aria-label="Menü öffnen">☰</button>
+    <nav class="nav">
+      <ul>
+        <li><a href="#menu">Speisekarte</a></li>
+        <li><a href="#gallery">Galerie</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-text">
+      <h1>Bienvenidos bei Pancho Villa</h1>
+      <p>Authentische mexikanische Küche im Herzen von Halver</p>
+      <a href="#menu" class="cta">Speisekarte ansehen</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="menu">
+      <h2>Unsere Speisekarte</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <h3>Tacos</h3>
+          <p>Frisch zubereitet mit hausgemachten Tortillas</p>
+        </div>
+        <div class="menu-card">
+          <h3>Burritos</h3>
+          <p>Herzhaft gefüllt nach mexikanischer Art</p>
+        </div>
+        <div class="menu-card">
+          <h3>Quesadillas</h3>
+          <p>Köstlich überbacken mit Käse und Beilagen</p>
+        </div>
+      </div>
+      <p class="menu-note">🍽 Die komplette Speisekarte folgt bald!</p>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <h2>Galerie</h2>
+      <div class="gallery-grid">
+        <img src="https://source.unsplash.com/400x300/?tacos" alt="Tacos">
+        <img src="https://source.unsplash.com/400x300/?mexican-food" alt="Mexikanisches Essen">
+        <img src="https://source.unsplash.com/400x300/?burrito" alt="Burrito">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <p><strong>Adresse:</strong> Bächterhof 5, 58553 Halver</p>
+      <p><strong>Öffnungszeiten:</strong> täglich 17:00 – 22:00 Uhr</p>
+      <div class="map">
+        <iframe src="https://www.google.com/maps?q=B%C3%A4chterhof+5,+Halver&output=embed"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Pancho Villa Restaurant</p>
+    <p>Mit ❤️ aus Mexiko nach Halver</p>
+  </footer>
+</body>
+</html>

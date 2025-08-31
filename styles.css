@@ -1,0 +1,30 @@
+/* styles.css - Pancho Villa Design */
+:root{
+  --container-max:1100px;
+  --accent:#c1121f;
+  --accent2:#007f5f;
+  --bg:#fffdf8;
+  --text:#111;
+  --muted:#555;
+  --radius:10px;
+  --gap:16px;
+  --shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial, sans-serif;background:var(--bg);color:var(--text);line-height:1.4}
+.container{max-width:var(--container-max);margin:0 auto;padding:24px 16px}
+.site-header{background:#fff;position:sticky;top:0;border-bottom:4px solid var(--accent2);display:flex;align-items:center;justify-content:space-between}
+.nav ul{list-style:none;display:flex;gap:16px;margin:0;padding:0}
+.nav a{text-decoration:none;color:var(--text);padding:8px 12px;border-radius:8px}
+.nav a:hover{background:var(--accent2);color:#fff}
+.nav-toggle{display:none}
+.hero{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;padding:40px 0;text-align:center}
+.hero h1{font-size:2.5rem;margin:0 0 12px}
+.cta{background:#fff;color:var(--accent);padding:12px 18px;border-radius:8px;text-decoration:none}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:16px}
+.menu-card{background:#fff;padding:16px;border-radius:12px;box-shadow:var(--shadow);border-top:4px solid var(--accent)}
+.menu-card h3{margin-top:0;color:var(--accent2)}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:8px}
+.gallery img{width:100%;border-radius:8px}
+.map iframe{width:100%;height:260px;border:0;border-radius:8px}
+.site-footer{padding:18px 0;background:#fff;border-top:4px solid var(--accent);margin-top:24px;text-align:center;color:var(--muted)}
